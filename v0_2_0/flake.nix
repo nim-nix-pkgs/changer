@@ -1,5 +1,5 @@
 {
-  description = ''A tool for managing a project's changelog'';
+  description = ''Makes doing changelogs easier'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,13 +9,14 @@
   
   inputs.src-changer-v0_2_0.flake = false;
   inputs.src-changer-v0_2_0.owner = "iffy";
-  inputs.src-changer-v0_2_0.ref   = "refs/tags/v0.2.0";
+  inputs.src-changer-v0_2_0.ref   = "v0_2_0";
   inputs.src-changer-v0_2_0.repo  = "changer";
   inputs.src-changer-v0_2_0.type  = "github";
   
   inputs."argparse".owner = "nim-nix-pkgs";
   inputs."argparse".ref   = "master";
   inputs."argparse".repo  = "argparse";
+  inputs."argparse".dir   = "v3_0_0";
   inputs."argparse".type  = "github";
   inputs."argparse".inputs.nixpkgs.follows = "nixpkgs";
   inputs."argparse".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
