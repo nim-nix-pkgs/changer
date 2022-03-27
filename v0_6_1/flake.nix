@@ -11,6 +11,7 @@
   inputs.src-changer-v0_6_1.ref   = "refs/tags/v0.6.1";
   inputs.src-changer-v0_6_1.owner = "iffy";
   inputs.src-changer-v0_6_1.repo  = "changer";
+  inputs.src-changer-v0_6_1.dir   = "";
   inputs.src-changer-v0_6_1.type  = "github";
   
   inputs."argparse".owner = "nim-nix-pkgs";
