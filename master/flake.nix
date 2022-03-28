@@ -11,7 +11,6 @@
   inputs.src-changer-master.ref   = "refs/heads/master";
   inputs.src-changer-master.owner = "iffy";
   inputs.src-changer-master.repo  = "changer";
-  inputs.src-changer-master.dir   = "";
   inputs.src-changer-master.type  = "github";
   
   inputs."argparse".owner = "nim-nix-pkgs";
